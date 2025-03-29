@@ -5,7 +5,7 @@ const startButton = document.getElementById("startButton");
 const lastScoreDisplay = document.getElementById("lastScore");
 const highScoreDisplay = document.getElementById("highScore");
 const eatSound = new Audio("./media/eat.mp3");
-const lossSound = new Audio("/media/fart.mp3");
+const lossSound = new Audio("./media/fart.mp3");
 
 let lastScore = localStorage.getItem("lastScore") || 0;
 let highScore = localStorage.getItem("highScore") || 0;
